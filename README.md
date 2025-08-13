@@ -62,4 +62,6 @@ comandos usados ls rm clear cat cd / g++ make
 si no pongo el header en el archivo principal tengo que ponerlo en el makefile
 
 <img width="685" height="70" alt="imagen" src="https://github.com/user-attachments/assets/701eb23f-32fc-44f2-b0c2-773ca665684f" />
+<img width="550" height="173" alt="imagen" src="https://github.com/user-attachments/assets/3a45130a-c833-4570-9c01-a8ab5e8ff0fd" />
+<img width="700" height="471" alt="imagen" src="https://github.com/user-attachments/assets/4f26ac4e-f572-4545-80af-8710f69070c4" />
 
