@@ -54,3 +54,10 @@ y las acciones que puede realizar el objeto o lo que sabe hacer: apagar, prender
 
 Usamos ls/cat main.cpp/nano main.cpp / cat matriz.h para editar sin tener que compilar cadavez
 tambien usamos makefile
+
+g++ -o (para compilar)
+usamos el makefile con comandos ls/ nano main.cpp (nombre dle archivo a editar)/ cat matriz.h para editar y no tener que compilar cada vez que edito el .cpp o el .h
+
+comandos usados ls rm clear cat cd / g++ make
+si no pongo el header en el archivo principal tengo que ponerlo en el makefile
+
