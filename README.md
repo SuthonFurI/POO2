@@ -65,3 +65,15 @@ si no pongo el header en el archivo principal tengo que ponerlo en el makefile
 <img width="550" height="173" alt="imagen" src="https://github.com/user-attachments/assets/3a45130a-c833-4570-9c01-a8ab5e8ff0fd" />
 <img width="700" height="471" alt="imagen" src="https://github.com/user-attachments/assets/4f26ac4e-f572-4545-80af-8710f69070c4" />
 
+main: main.cpp Alarma.cpp Sensor.cpp
+        g++ -o sensores main.cpp Alarma.cpp Sensor.cpp
+        echo "by rossi_12467-naser_12318"
+clean:
+        rm -f sensores
+see: 
+        ls -la
+run:
+        ./sensores
+        
+<img width="601" height="268" alt="imagen" src="https://github.com/user-attachments/assets/e7ab1da7-d105-453c-9879-3355b376c2d0" />
+<img width="700" height="603" alt="imagen" src="https://github.com/user-attachments/assets/f0c3c7b5-8d60-4920-a762-d39a7e914b1c" />
