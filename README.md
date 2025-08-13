@@ -29,6 +29,10 @@ En la zona de prueba lanzo y se captura en catch. pero solo captura dependiendo 
 
 raise transporta el error, permite generar librerias solidas.
 
+
+g++ -o (para compilar)
+usamos el makefile con comandos ls/ nano main.cpp (nombre dle archivo a editar)/ cat matriz.h para editar y no tener que compilar cada vez que edito el .cpp o el .h
+
 Modularidad: un modulo es transformar un flujo de trabajo en una caja negra, un modulo es una funcion en un archivo, un modulo es un archivo, el mismo tiene deficiones de constantes u otras cosas. Para un compilaciòn separada generamos archivos separados.
 
 cuando los archivos se unen en un ejecutable enlazandose
@@ -47,3 +51,6 @@ La interfaz estaen el lìmite, esta relacionado con el encapsulamiento,
 (17) el objeto tiene atributos o variables que manejan datos del objeto, para encapsular hacemos que todos los atributos son privados y le mostramos al usuario la interfaz, la publico es la interfaz.
 (18) podemos definir variables del elemento, color, material, display, resolucion.
 y las acciones que puede realizar el objeto o lo que sabe hacer: apagar, prender, detectar señal de radio, subir el volumen.
+
+Usamos ls/cat main.cpp/nano main.cpp / cat matriz.h para editar sin tener que compilar cadavez
+tambien usamos makefile
