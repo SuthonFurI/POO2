@@ -27,4 +27,22 @@ si se ejecuta bien el resultado es un puntero q apunta a la direcciòn memoria
 (11)
 En la zona de prueba lanzo y se captura en catch. pero solo captura dependiendo de que se lanzó. "cuando hago throw lo mando a la senguiente capa, si la otra capa puede la manda a la siquiente hasta que llega al SO" (niidea)
 
-raise transporta el error, permite generar librerias solidas,
+raise transporta el error, permite generar librerias solidas.
+
+Modularidad: un modulo es transformar un flujo de trabajo en una caja negra, un modulo es una funcion en un archivo, un modulo es un archivo, el mismo tiene deficiones de constantes u otras cosas. Para un compilaciòn separada generamos archivos separados.
+
+cuando los archivos se unen en un ejecutable enlazandose
+
+Fenomeno vs Concepto
+(9) Cuando se genera un objeto se le asigna un proposito y los miembros que forman parte.
+
+Objeto/Clase (10)
+Una calse es un molde o categoria, ej: entero
+
+Encapsulamiento (13)
+cosas que el objeto sabe hacer
+
+Jerarquia, una entidad depende de otra pero tambien tiene que ver con los elementos que conforman a los objetos bit-byte-variable
+La interfaz estaen el lìmite, esta relacionado con el encapsulamiento,
+(17) el objeto tiene atributos o variables que manejan datos del objeto, para encapsular hacemos que todos los atributos son privados y le mostramos al usuario la interfaz, la publico es la interfaz.
+(18) podemos definir variables del elemento, color, material, display, resolucion, 
