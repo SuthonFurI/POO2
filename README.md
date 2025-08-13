@@ -29,6 +29,10 @@ En la zona de prueba lanzo y se captura en catch. pero solo captura dependiendo 
 
 raise transporta el error, permite generar librerias solidas.
 
+
+g++ -o (para compilar)
+usamos el makefile con comandos ls/ nano main.cpp (nombre dle archivo a editar)/ cat matriz.h para editar y no tener que compilar cada vez que edito el .cpp o el .h
+
 Modularidad: un modulo es transformar un flujo de trabajo en una caja negra, un modulo es una funcion en un archivo, un modulo es un archivo, el mismo tiene deficiones de constantes u otras cosas. Para un compilaciòn separada generamos archivos separados.
 
 cuando los archivos se unen en un ejecutable enlazandose
