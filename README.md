@@ -51,3 +51,6 @@ La interfaz estaen el lìmite, esta relacionado con el encapsulamiento,
 (17) el objeto tiene atributos o variables que manejan datos del objeto, para encapsular hacemos que todos los atributos son privados y le mostramos al usuario la interfaz, la publico es la interfaz.
 (18) podemos definir variables del elemento, color, material, display, resolucion.
 y las acciones que puede realizar el objeto o lo que sabe hacer: apagar, prender, detectar señal de radio, subir el volumen.
+
+Usamos ls/cat main.cpp/nano main.cpp / cat matriz.h para editar sin tener que compilar cadavez
+tambien usamos makefile
