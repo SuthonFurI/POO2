@@ -61,3 +61,5 @@ usamos el makefile con comandos ls/ nano main.cpp (nombre dle archivo a editar)/
 comandos usados ls rm clear cat cd / g++ make
 si no pongo el header en el archivo principal tengo que ponerlo en el makefile
 
+<img width="685" height="70" alt="imagen" src="https://github.com/user-attachments/assets/701eb23f-32fc-44f2-b0c2-773ca665684f" />
+
