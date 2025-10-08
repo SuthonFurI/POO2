@@ -1,0 +1,13 @@
+Un Profesor puede dar una clase a un Curso,
+pero no se queda con el curso guardado (no hay atributo que lo almacene).
+El curso y el profesor existen independientemente.
+💬 En UML sería una línea simple, sin rombos (ni blanco ni negro).
+Profesor  ──────────  Curso
+
+en este codigo la principal diferencia entre asociacion y agregacion es que en agragacion, alumno guarda punteros a libros
+en cambio en asociacion simple profesor.h usa a clase solo para ver si es valida. nada mas
+
+asociacion simple-> otra clase es un parametro para un metodo publico y dura lo que dure la ejecuccion del metodo
+agregación-> todo lo que implica asosiación simple + otra clase puede ser un atributo privado, dura mientras exista la clase,
+pero dicha clase no crea a la otra
+composicion-> agregacion + asociacion + crea y destruye objetos de manera interna

@@ -1,0 +1,40 @@
+/*La agregación es cuando una clase usa objetos de otra clase,
+pero no es responsable de su creación ni destrucción.
+Estudiante ◊────────── Libro
+Los objetos tienen vida independiente.
+Ejemplo Estudiante-Libro: Un Estudiante usa Libros para estudiar,
+pero los libros existen independientemente del estudiante.
+Me doy cuenta de la agregación cuando:
+*en el .h de una clase los atributos son punteros o referencias a objetos de otra clase
+
+class Estudiante {
+    std::vector<Libro*> librosPrestados;  // ← PUNTEROS (*)
+    //              ↑
+    // Señal #1: Usa punteros o referencias
+
+*el constructor NO recibe objeto Libro, El constructos No crea los objetos que usa, solo 
+inicializa sus propios atributos
+
+Estudiante::Estudiante(std::string n) 
+    : nombre(std::move(n)) {}
+    // ↑
+    // Señal #2: NO recibe objetos Libro en el constructor
+    // NO crea los libros aquí
+
+*Hay metodos que reciben punteros o referencias de objetos externos
+
+void prestarLibro(Libro* libro);  // ← Recibe puntero desde afuera
+//                  ↑
+// Señal #3: Los objetos vienen de AFUERA
+
+| Relación       | ¿Libro en atributos? | ¿Libro en parámetros? |
+|----------------|----------------------|-----------------------|
+| Asociación     | NO                   | SÍ                    |
+| Agregación     | SÍ (como Libro*)     | SÍ (a veces)          |
+| Composición    | SÍ (como Libro)      | NO (generalmente)     |
+
+| Relación    | Atributo           | Constructor        | Destructor           |
+|-------------|--------------------|--------------------|----------------------|
+| Agregación  | Libro* libro       | No crea el Libro   | No destruye el Libro |
+| Composición | Libro libro        | Crea el Libro      | Destruye el Libro    |
+*/

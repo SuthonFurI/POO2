@@ -1,0 +1,7 @@
+En una composición, una clase “posee” completamente a otra.
+La clase “contenedora” crea los objetos internos.
+Cuando la clase “contenedora” se destruye, sus “partes”
+también se destruyen.
+La relación es de vida compartida (si muere el todo,
+mueren las partes).
+Auto ◆──── Motor
