@@ -1,0 +1,1 @@
+Operacion:404;Descripcion=Error de conexion;Dispositivo=DeviceABC;Frecuencia=50;Usuario=User123;Voltaje=220;

@@ -1,0 +1,1 @@
+Usuario:Rossi-Naser;Dispositivo:467-318;Operacion:404;Descripcion=Conectado;Frecuencia=50;Voltaje=220;

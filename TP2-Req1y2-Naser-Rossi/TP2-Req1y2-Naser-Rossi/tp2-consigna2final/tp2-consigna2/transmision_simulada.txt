@@ -1,0 +1,1 @@
+Usuario:Rossi-Naser;Dispositivo:467-318;Operacion:201;Status=Listo;Temperatura=25.6;
